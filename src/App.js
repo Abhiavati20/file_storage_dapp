@@ -8,7 +8,7 @@ import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { Web3Storage } from "web3.storage";
 import env from "react-dotenv"
 
-const client = new Web3Storage({ token : process.env.WEB3_STORAGE_KEY})
+const client = new Web3Storage({ token : "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweGU2OTlDOTllZTA3MzcwMGUxODQzQTk5OEQyMUU0MjlEZmYzODVBYjMiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2OTQ5NTE4NzU5MjksIm5hbWUiOiJGaWxlU3RvcmFnZURhcHAifQ.6qgkH7vEcfHi3kTvrHn7lfwg0rp-0aHM8wcTEtCY3AM"})
 
 function App() {
 
